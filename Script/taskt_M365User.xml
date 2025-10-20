@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Commands>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="a85fa033-20ec-44b3-8f5e-a7f7768283ed" CommandName="CommentCommand" IsCommented="false" SelectionName="Comment" DefaultPause="0" LineNumber="1" PauseBeforeExeucution="false" v_Comment="M365 User Anlegen" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="EnterKeysCommand" CommandID="cfe14386-ee4d-4ee3-be07-dbe9ae7648e8" CommandName="EnterKeysCommand" IsCommented="false" SelectionName="Enter Keys" DefaultPause="0" LineNumber="2" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="⦃Window.CurrentWindowName⦄" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" v_WaitTimeBetweenFindAndAction="0" v_ActivateBeforeAction="Yes" v_TextToSend="^{l}https://dlrg.net/apps/m365?page=userCreate&amp;action=new" v_EncryptionOption="" v_UseClipBoard="" v_WaitTimeAfterKeyEnter="500" v_ActivateCurrentWindow="" v_ClearClipboardAfterPaste="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="EnterKeysCommand" CommandID="f3261044-3897-4245-a781-68b12310551d" CommandName="EnterKeysCommand" IsCommented="false" SelectionName="Enter Keys" DefaultPause="0" LineNumber="3" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="⦃Window.CurrentWindowName⦄" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" v_WaitTimeBetweenFindAndAction="0" v_ActivateBeforeAction="Yes" v_TextToSend="{ENTER}" v_EncryptionOption="" v_UseClipBoard="" v_WaitTimeAfterKeyEnter="500" v_ActivateCurrentWindow="" v_ClearClipboardAfterPaste="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="PauseScriptCommand" CommandID="8bb9b488-69ee-4dd6-974d-da4b8dd25530" CommandName="PauseScriptCommand" IsCommented="false" SelectionName="Pause Script" DefaultPause="0" LineNumber="4" PauseBeforeExeucution="false" CommandEnabled="true" v_PauseLength="2000" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="4fb6fda9-fbf7-47da-9dcf-9518987140f4" CommandName="CommentCommand" IsCommented="false" SelectionName="Comment" DefaultPause="0" LineNumber="5" PauseBeforeExeucution="false" v_Comment="Lizenz Auswählen" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="MoveMouseCommand" CommandID="cd340b28-3557-446e-96ca-a3e5641ac264" CommandName="MoveMouseCommand" IsCommented="false" SelectionName="Move Mouse" DefaultPause="0" LineNumber="6" PauseBeforeExeucution="false" CommandEnabled="true" v_XMousePosition="800" v_YMousePosition="614" v_MouseClick="Left Click" v_WaitTimeAfterClick="500" v_IgnoreWaitTime="Yes" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="MoveMouseCommand" CommandID="01a001d3-6b69-44b5-9cbc-cb51cad9b0a5" CommandName="MoveMouseCommand" IsCommented="false" SelectionName="Move Mouse" DefaultPause="0" LineNumber="7" PauseBeforeExeucution="false" CommandEnabled="true" v_XMousePosition="800" v_YMousePosition="675" v_MouseClick="Left Click" v_WaitTimeAfterClick="500" v_IgnoreWaitTime="Yes" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="ad1d5460-5334-439a-91ea-570e5bceee1b" CommandName="CommentCommand" IsCommented="false" SelectionName="Comment" DefaultPause="0" LineNumber="8" PauseBeforeExeucution="false" v_Comment="Scrollen" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="MoveMouseCommand" CommandID="2a531517-eca0-4c35-9ed8-d9c75923dd1c" CommandName="MoveMouseCommand" IsCommented="false" SelectionName="Move Mouse" DefaultPause="0" LineNumber="9" PauseBeforeExeucution="false" CommandEnabled="true" v_XMousePosition="1905" v_YMousePosition="675" v_MouseClick="Left Down" v_WaitTimeAfterClick="500" v_IgnoreWaitTime="Yes" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="MoveMouseCommand" CommandID="aded6627-b8a8-484e-95bc-302de169120a" CommandName="MoveMouseCommand" IsCommented="false" SelectionName="Move Mouse" DefaultPause="0" LineNumber="10" PauseBeforeExeucution="false" CommandEnabled="true" v_XMousePosition="1905" v_YMousePosition="500" v_MouseClick="Left Down" v_WaitTimeAfterClick="500" v_IgnoreWaitTime="Yes" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="MoveMouseCommand" CommandID="f91ad823-e43d-4f72-9f89-3b5fa15d84e6" CommandName="MoveMouseCommand" IsCommented="false" SelectionName="Move Mouse" DefaultPause="0" LineNumber="11" PauseBeforeExeucution="false" CommandEnabled="true" v_XMousePosition="1905" v_YMousePosition="800" v_MouseClick="Left Up" v_WaitTimeAfterClick="500" v_IgnoreWaitTime="Yes" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="d3a55a61-221d-4777-b64f-752b49db6e87" CommandName="CommentCommand" IsCommented="false" SelectionName="Comment" DefaultPause="0" LineNumber="12" PauseBeforeExeucution="false" v_Comment="Daten einfüllen" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="OpenFileCommand" CommandID="c99b8863-cf0c-4e36-a5be-e65f9c13768b" CommandName="OpenFileCommand" IsCommented="false" SelectionName="Open File" DefaultPause="0" LineNumber="13" PauseBeforeExeucution="false" CommandEnabled="true" v_TargetFilePath="C:\Users\Peter Kretzer\OneDrive - DLRG\03_TASKT\M365\M365_Users.xlsx" v_WaitTimeForFile="10" v_ResultPath="" v_WaitTimeForOpen="2" v_WindowNameResult="" v_WindowHandleResult="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="MoveOneWindowCommand" CommandID="73beb45d-fc8f-4a5c-982d-c7b923862a36" CommandName="MoveOneWindowCommand" IsCommented="false" SelectionName="Move One Window" DefaultPause="0" LineNumber="14" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="M365_Users.xlsx - Excel" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" v_WaitTimeBetweenFindAndAction="0" v_ActivateBeforeAction="" v_XPosition="0" v_YPosition="0" v_WhenWindowIsMinimized="" v_WhenWindowIsMaximized="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="ResizeOneWindowCommand" CommandID="c294511b-5b06-41e4-b6ed-53d404df7fdc" CommandName="ResizeOneWindowCommand" IsCommented="false" SelectionName="Resize One Window" DefaultPause="0" LineNumber="15" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="M365_Users.xlsx - Excel" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" v_WaitTimeBetweenFindAndAction="0" v_ActivateBeforeAction="" v_Width="1920" v_Height="1000" v_WhenWindowIsMinimized="" v_WhenWindowIsMaximized="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="MoveMouseCommand" CommandID="8a7b8f74-57cf-4c71-ba0d-bd5baecc58b2" CommandName="MoveMouseCommand" IsCommented="true" SelectionName="Move Mouse" DefaultPause="0" LineNumber="16" PauseBeforeExeucution="false" CommandEnabled="true" v_XMousePosition="57" v_YMousePosition="286" v_MouseClick="Left Click" v_WaitTimeAfterClick="500" v_IgnoreWaitTime="Yes" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="EnterShortcutKeyCommand" CommandID="3203494f-6f74-4631-9d26-8ca6fc9c9186" CommandName="EnterShortcutKeyCommand" IsCommented="false" SelectionName="Enter Shortcut Key" DefaultPause="0" LineNumber="17" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="M365_Users.xlsx - Excel" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" v_WaitTimeBetweenFindAndAction="0" v_ActivateBeforeAction="Yes" v_Hotkey="Copy" v_WaitTimeAfterKeyEnter="500" v_ActivateCurrentWindow="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="ActivateOneWindowCommand" CommandID="72d6195c-a093-4ec7-94f4-c743dfffa8ee" CommandName="ActivateOneWindowCommand" IsCommented="false" SelectionName="Activate One Window" DefaultPause="0" LineNumber="18" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="DLRG - Microsoft - ISC (Internet Service Center) - Google Chrome" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="PauseScriptCommand" CommandID="6c4c8c38-63e3-4a70-a38e-99a6dce0d228" CommandName="PauseScriptCommand" IsCommented="false" SelectionName="Pause Script" DefaultPause="0" LineNumber="19" PauseBeforeExeucution="false" CommandEnabled="true" v_PauseLength="3000" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="ActivateOneWindowCommand" CommandID="843e30b1-d58b-47ce-9b23-f81405ef14eb" CommandName="ActivateOneWindowCommand" IsCommented="false" SelectionName="Activate One Window" DefaultPause="0" LineNumber="20" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="DLRG - Microsoft - ISC (Internet Service Center) - Google Chrome" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="MoveMouseCommand" CommandID="73bffa1e-d432-4beb-bc1f-f4c7230b981c" CommandName="MoveMouseCommand" IsCommented="true" SelectionName="Move Mouse" DefaultPause="0" LineNumber="21" PauseBeforeExeucution="false" CommandEnabled="true" v_XMousePosition="558" v_YMousePosition="486" v_MouseClick="Left Click" v_WaitTimeAfterClick="500" v_IgnoreWaitTime="Yes" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="EnterShortcutKeyCommand" CommandID="02533145-1fbb-4cdb-8a23-eaaba95a4469" CommandName="EnterShortcutKeyCommand" IsCommented="false" SelectionName="Enter Shortcut Key" DefaultPause="0" LineNumber="22" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="DLRG - Microsoft - ISC (Internet Service Center) - Google Chrome" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" v_WaitTimeBetweenFindAndAction="0" v_ActivateBeforeAction="Yes" v_Hotkey="Paste" v_WaitTimeAfterKeyEnter="500" v_ActivateCurrentWindow="" />
+    </ScriptAction>
+  </Commands>
+  <Info>
+    <TasktVersion>3.5.2.43</TasktVersion>
+    <Author />
+    <LastRunTime>2025-10-09T18:55:08.8732235+02:00</LastRunTime>
+    <RunTimes>25</RunTimes>
+    <Revision>29</Revision>
+    <ScriptVersion>0.0.0</ScriptVersion>
+    <Description />
+  </Info>
+  <Variables />
+</Script>

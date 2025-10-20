@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Commands>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="70008717-315e-4e33-9e4c-57a0cbe9672f" CommandName="CommentCommand" IsCommented="false" SelectionName="Comment" DefaultPause="0" LineNumber="1" PauseBeforeExeucution="false" v_Comment="Start&#xD;&#xA;" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="EnterKeysCommand" CommandID="9fe6046f-c0d4-4b88-b76c-8f37fd13204d" CommandName="EnterKeysCommand" IsCommented="true" SelectionName="Enter Keys" DefaultPause="0" LineNumber="2" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="⦃Window.CurrentWindowName⦄" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" v_WaitTimeBetweenFindAndAction="0" v_ActivateBeforeAction="Yes" v_TextToSend="{WIN_KEY+D}" v_EncryptionOption="" v_UseClipBoard="" v_WaitTimeAfterKeyEnter="500" v_ActivateCurrentWindow="" v_ClearClipboardAfterPaste="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="b06b8042-814c-453e-bc57-f37dbaaaa04c" CommandName="CommentCommand" IsCommented="true" SelectionName="Comment" DefaultPause="0" LineNumber="3" PauseBeforeExeucution="false" v_Comment="Öffne Excel" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="RunScriptFileCommand" CommandID="bcf97472-2187-41d0-bec6-1aeda24e9623" CommandName="RunScriptFileCommand" IsCommented="false" SelectionName="Run Script File" DefaultPause="0" LineNumber="4" PauseBeforeExeucution="false" CommandEnabled="true" v_TargetFilePath="C:\Users\Peter Kretzer\OneDrive\Dokumente\taskt\My Scripts\taskt_StartISC.xml" v_WaitTimeForFile="10" v_AssignVariables="No">
+        <v_VariableAssignments>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="VariableAssignments100925.042732" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="VariableAssignments100925.042732">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="VariableName" type="xs:string" minOccurs="0" />
+                        <xs:element name="VariableValue" type="xs:string" minOccurs="0" />
+                        <xs:element name="VariableReturn" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_VariableAssignments>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="f8a0da40-7519-418e-aee5-721a30d458e8" CommandName="CommentCommand" IsCommented="false" SelectionName="Comment" DefaultPause="0" LineNumber="5" PauseBeforeExeucution="false" v_Comment="Items in this section will run if the statement is true" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="RunScriptFileCommand" CommandID="45b850a0-6523-41aa-9b5d-86ab0eefc74f" CommandName="RunScriptFileCommand" IsCommented="false" SelectionName="Run Script File" DefaultPause="0" LineNumber="6" PauseBeforeExeucution="false" CommandEnabled="true" v_TargetFilePath="C:\Users\Peter Kretzer\OneDrive\Dokumente\taskt\My Scripts\taskt_M365User.xml" v_WaitTimeForFile="10" v_AssignVariables="No">
+        <v_VariableAssignments>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="VariableAssignments100925.060356" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="VariableAssignments100925.060356">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="VariableName" type="xs:string" minOccurs="0" />
+                        <xs:element name="VariableValue" type="xs:string" minOccurs="0" />
+                        <xs:element name="VariableReturn" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_VariableAssignments>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="PauseScriptCommand" CommandID="a97f20d3-c9ba-42ac-82b8-29d909a338f5" CommandName="PauseScriptCommand" IsCommented="false" SelectionName="Pause Script" DefaultPause="0" LineNumber="7" PauseBeforeExeucution="false" CommandEnabled="true" v_PauseLength="8000" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="3e59e48d-4939-4583-84a1-eb30e8111de8" CommandName="CommentCommand" IsCommented="false" SelectionName="Comment" DefaultPause="0" LineNumber="8" PauseBeforeExeucution="false" v_Comment="Logout" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="RunScriptFileCommand" CommandID="78410aa0-55d4-4fa0-8584-c487717ebd4f" CommandName="RunScriptFileCommand" IsCommented="false" SelectionName="Run Script File" DefaultPause="0" LineNumber="9" PauseBeforeExeucution="false" CommandEnabled="true" v_TargetFilePath="C:\Users\Peter Kretzer\OneDrive\Dokumente\taskt\My Scripts\taskt_LogOutISC.xml" v_WaitTimeForFile="10" v_AssignVariables="No">
+        <v_VariableAssignments>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="VariableAssignments100925.043117" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="VariableAssignments100925.043117">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="VariableName" type="xs:string" minOccurs="0" />
+                        <xs:element name="VariableValue" type="xs:string" minOccurs="0" />
+                        <xs:element name="VariableReturn" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_VariableAssignments>
+      </ScriptCommand>
+    </ScriptAction>
+  </Commands>
+  <Info>
+    <TasktVersion>3.5.2.43</TasktVersion>
+    <Author />
+    <LastRunTime>2025-10-09T20:06:24.2022026+02:00</LastRunTime>
+    <RunTimes>102</RunTimes>
+    <Revision>117</Revision>
+    <ScriptVersion>0.0.0</ScriptVersion>
+    <Description />
+  </Info>
+  <Variables />
+</Script>

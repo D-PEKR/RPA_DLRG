@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Commands>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="68d5795d-286a-4659-8608-5792f2b1ace7" CommandName="CommentCommand" IsCommented="false" SelectionName="Comment" DefaultPause="0" LineNumber="1" PauseBeforeExeucution="false" v_Comment="Start&#xD;&#xA;" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="EnterKeysCommand" CommandID="7231dc6f-8198-4a6c-8474-21c879fc7538" CommandName="EnterKeysCommand" IsCommented="false" SelectionName="Enter Keys" DefaultPause="0" LineNumber="2" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="⦃Window.CurrentWindowName⦄" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" v_WaitTimeBetweenFindAndAction="0" v_ActivateBeforeAction="Yes" v_TextToSend="{WIN_KEY+D}" v_EncryptionOption="" v_UseClipBoard="" v_WaitTimeAfterKeyEnter="500" v_ActivateCurrentWindow="" v_ClearClipboardAfterPaste="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="cafd6127-b167-4a4f-8caa-c0fe2f435e90" CommandName="CommentCommand" IsCommented="false" SelectionName="Comment" DefaultPause="0" LineNumber="3" PauseBeforeExeucution="false" v_Comment="Google Chrome öffnen&#xD;&#xA;" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="StartApplicationCommand" CommandID="5565a0a3-aeaa-42c8-b198-b98bef03fb9f" CommandName="StartApplicationCommand" IsCommented="false" SelectionName="Start Application" DefaultPause="0" LineNumber="4" PauseBeforeExeucution="false" CommandEnabled="true" v_ApplicationPath="C:\Program Files\Google\Chrome\Application\Chrome.exe" v_Arguments="" v_WaitForExit="" v_StartedProcessName="" v_WindowName="" v_WindowHandle="" v_WaitTimeForExecute="2000" v_WaitTimeBeforeNext="2000" v_WaitTimeForApplication="5" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="ActivateOneWindowCommand" CommandID="7995e709-67fa-4033-8924-d8445e737351" CommandName="ActivateOneWindowCommand" IsCommented="false" SelectionName="Activate One Window" DefaultPause="0" LineNumber="5" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="⦃Window.CurrentWindowName⦄" v_CheckMethod="" v_WaitTimeForWindow="10" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="MoveOneWindowCommand" CommandID="8783dc5b-cfe4-4116-a3bc-c980d31deae6" CommandName="MoveOneWindowCommand" IsCommented="false" SelectionName="Move One Window" DefaultPause="0" LineNumber="6" PauseBeforeExeucution="false" v_Comment="" CommandEnabled="true" v_WindowName="Chrome" v_XPosition="0" v_YPosition="0" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="ResizeOneWindowCommand" CommandID="0aeb12e8-30bc-4fc8-ac68-93c773100b12" CommandName="ResizeOneWindowCommand" IsCommented="false" SelectionName="Resize One Window" DefaultPause="0" LineNumber="7" PauseBeforeExeucution="false" v_Comment="" CommandEnabled="true" v_WindowName="Chrome" v_Width="1920" v_Height="1000" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="PauseScriptCommand" CommandID="5fa7856a-ec3c-4b36-9a98-1d3d2037c86c" CommandName="PauseScriptCommand" IsCommented="false" SelectionName="Pause Script" DefaultPause="0" LineNumber="8" PauseBeforeExeucution="false" CommandEnabled="true" v_PauseLength="2000" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="4df77e46-5a7f-4e93-af7e-12275b153b3d" CommandName="CommentCommand" IsCommented="false" SelectionName="Comment" DefaultPause="0" LineNumber="9" PauseBeforeExeucution="false" v_Comment="Login dlrg.net" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="EnterKeysCommand" CommandID="f8a46802-028e-4918-95e7-573fb76e7854" CommandName="EnterKeysCommand" IsCommented="false" SelectionName="Enter Keys" DefaultPause="0" LineNumber="10" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="⦃Window.CurrentWindowName⦄" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" v_WaitTimeBetweenFindAndAction="0" v_ActivateBeforeAction="Yes" v_TextToSend="^{l}https://dlrg.net/ " v_EncryptionOption="" v_UseClipBoard="" v_WaitTimeAfterKeyEnter="500" v_ActivateCurrentWindow="" v_ClearClipboardAfterPaste="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="EnterKeysCommand" CommandID="ad678d6b-b5a0-4bfd-84bc-3f9f0329e4c7" CommandName="EnterKeysCommand" IsCommented="false" SelectionName="Enter Keys" DefaultPause="0" LineNumber="11" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="⦃Window.CurrentWindowName⦄" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" v_WaitTimeBetweenFindAndAction="0" v_ActivateBeforeAction="Yes" v_TextToSend="{ENTER}" v_EncryptionOption="" v_UseClipBoard="" v_WaitTimeAfterKeyEnter="500" v_ActivateCurrentWindow="" v_ClearClipboardAfterPaste="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="EnterKeysCommand" CommandID="a0fe2ac1-c405-4749-a2a4-f30a4c4988e9" CommandName="EnterKeysCommand" IsCommented="false" SelectionName="Enter Keys" DefaultPause="0" LineNumber="12" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="⦃Window.CurrentWindowName⦄" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" v_WaitTimeBetweenFindAndAction="0" v_ActivateBeforeAction="Yes" v_TextToSend="p.kretzer" v_EncryptionOption="" v_UseClipBoard="" v_WaitTimeAfterKeyEnter="500" v_ActivateCurrentWindow="" v_ClearClipboardAfterPaste="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="431e0eb7-cd2d-4db1-be7b-383791bfe3bb" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="false" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="13" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="⦃Window.CurrentWindowName⦄" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" v_WaitTimeBetweenFindAndAction="0" v_ActivateBeforeAction="Yes" v_KeyUpDefault="" v_WaitTimeAfterKeyEnter="500" v_ActivateCurrentWindow="">
+        <v_KeyActions>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="KeyActions100925.092117" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="KeyActions100925.092117">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="Key" type="xs:string" minOccurs="0" />
+                        <xs:element name="Action" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <KeyActions100925.092117 diffgr:id="KeyActions100925.0921171" msdata:rowOrder="0" diffgr:hasChanges="modified">
+                <Key>Tab [Tab]</Key>
+                <Action>Key Press (Down + Up)</Action>
+              </KeyActions100925.092117>
+            </DocumentElement>
+            <diffgr:before>
+              <KeyActions100925.092117 diffgr:id="KeyActions100925.0921171" msdata:rowOrder="0">
+                <Key>Tab [Tab]</Key>
+                <Action>Key Press (Down + Up)</Action>
+              </KeyActions100925.092117>
+            </diffgr:before>
+          </diffgr:diffgram>
+        </v_KeyActions>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="EnterKeysCommand" CommandID="e97859a0-3275-41cf-8b3f-d55bd5dbeedd" CommandName="EnterKeysCommand" IsCommented="false" SelectionName="Enter Keys" DefaultPause="0" LineNumber="14" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="⦃Window.CurrentWindowName⦄" v_CheckMethod="" v_WaitTimeForWindow="60" v_NameResult="" v_HandleResult="" v_CaseSensitive="" v_TrimBeforeCheck="" v_SelectionMethod="" v_TargetWindowIndex="0" v_WaitTimeBetweenFindAndAction="0" v_ActivateBeforeAction="Yes" v_TextToSend="184957328914Peter!Aj{ENTER}" v_EncryptionOption="" v_UseClipBoard="" v_WaitTimeAfterKeyEnter="500" v_ActivateCurrentWindow="" v_ClearClipboardAfterPaste="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="PauseScriptCommand" CommandID="317f4e61-3ae9-4b4d-b654-becb60b1fcfb" CommandName="PauseScriptCommand" IsCommented="false" SelectionName="Pause Script" DefaultPause="0" LineNumber="15" PauseBeforeExeucution="false" CommandEnabled="true" v_PauseLength="2000" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="5bb8cbd1-3d71-41d6-a315-1e224631d958" CommandName="CommentCommand" IsCommented="false" SelectionName="Comment" DefaultPause="0" LineNumber="16" PauseBeforeExeucution="false" v_Comment="Zurück zum Main" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="StopCurrentScriptFileCommand" CommandID="899cc600-e652-4857-a02d-bbfbc803a55e" CommandName="StopCurrentScriptFileCommand" IsCommented="false" SelectionName="Stop Current Script File" DefaultPause="0" LineNumber="17" PauseBeforeExeucution="false" v_Comment="" CommandEnabled="true" />
+    </ScriptAction>
+  </Commands>
+  <Info>
+    <TasktVersion>3.5.2.43</TasktVersion>
+    <Author />
+    <LastRunTime>2025-10-09T20:05:40.5815816+02:00</LastRunTime>
+    <RunTimes>5</RunTimes>
+    <Revision>8</Revision>
+    <ScriptVersion>0.0.0</ScriptVersion>
+    <Description />
+  </Info>
+  <Variables />
+</Script>
